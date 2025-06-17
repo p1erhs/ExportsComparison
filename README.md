@@ -107,11 +107,3 @@ These include:
 - `missing_markcode_rows.csv`
 
 ---
-
-## 🧱 Project Structure
-
-```
-├── app.py                # Main Flask app
-├── templates/            # Inline HTML templates
-├── README.md             # This file
-```
