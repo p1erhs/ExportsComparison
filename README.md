@@ -58,17 +58,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🔐 Login Credentials
-
-Use the following credentials to access the system:
-
-- **Username:** `operations@loopcv.com`
-- **Password:** `Loopcv123@`
-
-> ⚠️ These credentials are hardcoded for internal use.
-
----
-
 ## 🖥️ How to Run
 
 1. Clone the repository:
