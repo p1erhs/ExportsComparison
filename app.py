@@ -8,8 +8,8 @@ import os
 
 app = Flask(__name__)
 app.secret_key = "flask secret"
-USER     = "operations@loopcv.com"
-PASSWORD = "Loopcv123@"
+USER     = "putyourusenamehere"
+PASSWORD = "putyourpasswordhere"
 
 print(USER ,PASSWORD)
 
