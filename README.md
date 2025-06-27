@@ -96,7 +96,7 @@ python app.py
 All result files are saved under:
 
 ```
-/home/LoopCv/
+/root folder
 ```
 
 These include:
