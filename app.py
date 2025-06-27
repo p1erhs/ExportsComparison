@@ -11,7 +11,6 @@ app.secret_key = "flask secret"
 USER     = "putyourusenamehere"
 PASSWORD = "putyourpasswordhere"
 
-print(USER ,PASSWORD)
 
 
 # Login page
