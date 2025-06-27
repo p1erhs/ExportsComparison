@@ -85,7 +85,7 @@ def upload():
                     'date': row['date']})
 
         empty_codes_df = pd.DataFrame(missing_code_rows)
-        empty_codes_df.to_csv("/home/LoopCv/missing_markcode_rows.csv", index=False)
+        empty_codes_df.to_csv("missing_markcode_rows.csv", index=False)
 
         # filter negative amounts
         df = df[df['total'] > 0]
@@ -129,13 +129,13 @@ def upload():
             })
 
         result_df = pd.DataFrame(missing_marks)
-        result_df.to_csv("/home/LoopCv/missing_mark_code_from_stripe_results.csv", index=False)  # Save missing marks
+        result_df.to_csv("missing_mark_code_from_stripe_results.csv", index=False)  # Save missing marks
 
         inv_results_df = pd.DataFrame(missing_invs)
-        inv_results_df.to_csv("/home/LoopCv/missing_stripe_invoices_from_softone_results.csv", index=False)  # Save missing invoices
+        inv_results_df.to_csv("missing_stripe_invoices_from_softone_results.csv", index=False)  # Save missing invoices
 
         amount_res = pd.DataFrame(diff_amounts)
-        amount_res.to_csv("/home/LoopCv/amounts_results.csv", index=False)
+        amount_res.to_csv("amounts_results.csv", index=False)
 
 
 
